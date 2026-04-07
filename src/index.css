@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Lato", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", ui-serif, Georgia, serif;
+  
+  --color-sororia-cream: #fdfbf7;
+  --color-sororia-pink: #f8e8e8;
+  --color-sororia-pink-dark: #e8d0d0;
+  --color-sororia-gold: #c5a059;
+  --color-sororia-gold-light: #dfc48c;
+  --color-sororia-dark: #2c2a29;
+  --color-sororia-text: #4a4543;
+}
+
+body {
+  @apply bg-sororia-cream text-sororia-text font-sans antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-serif text-sororia-dark;
+}
